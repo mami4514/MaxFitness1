@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragmentSpor"
+        android:icon="@drawable/baseline_sports_handball_24"
+        android:title="Antremanim" />
+    <item
+        android:id="@+id/fragmentOgunler"
+        android:icon="@drawable/baseline_soup_kitchen_24"
+        android:title="ögünüm" />
+    <item
+        android:id="@+id/fragmentHesabim"
+        android:icon="@drawable/baseline_health_and_safety_24"
+        android:title="EndeksHesapla" />
+</menu>

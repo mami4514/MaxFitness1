@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navi"
+    app:startDestination="@id/fragmentSpor">
+
+    <fragment
+        android:id="@+id/fragmentSpor"
+        android:name="com.example.fitness.FragmentSpor"
+        android:label="fragment_spor"
+        tools:layout="@layout/fragment_spor" />
+    <fragment
+        android:id="@+id/fragmentOgunler"
+        android:name="com.example.fitness.FragmentOgunler"
+        android:label="fragment_ogunler"
+        tools:layout="@layout/fragment_ogunler" />
+    <fragment
+        android:id="@+id/fragmentHesabim"
+        android:name="com.example.fitness.FragmentHesabim"
+        android:label="fragment_hesabim"
+        tools:layout="@layout/fragment_hesabim" />
+</navigation>
